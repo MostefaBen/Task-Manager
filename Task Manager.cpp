@@ -25,7 +25,7 @@ void main() {
                         "\\policies\\system /v DisableTaklMgr /t reg_dword /d 1");
             break;
 			
-		case '3':system("EXIT");
+	    case '3':system("EXIT");
             break;	
 			
         default:cout << "Error, choose again" << endl;
